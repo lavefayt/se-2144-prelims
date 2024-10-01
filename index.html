@@ -11,23 +11,23 @@
 <body>
   <div id="calculator">
     <div class="calculator__header"></div>
-    <div class="display" id="screen" style="background-color: rgb(97, 97, 97);">
+    <div class="display" id="screen" style="background-color: rgb(149, 137, 137);">
       <div class="display-history">
         <input id="history-expressions" type="text" disabled>
       </div>
       <div class="display-results">
-        <input id="input-display" type="text" value="0" disabled>
+        <input id="input-display" type="text" value="" disabled> <!-- basta ang display ah -->
       </div>
     </div>
     <div class="calculator_body">
       <div class="keys">
         <button class="operator-btn" id="AC">AC</button>
-          <button onclick="backspace()" class="operator-btn">←</button> 
+          <button onclick="backspace()" class="operator-btn">⌫</button> 
           <button class="btn secondary-keys" id="hello">HELLO</button>
           <button onclick="appendToDisplay('-')" class="operator-btn">-</button>
 
           <button onclick="appendToDisplay('7')">7</button>
-          <button onclick="appendToDisplay('8')">8</button>
+          <button onclick="appendToDisplay('8')">8</button> 
           <button onclick="appendToDisplay('9')">9</button>
           <button onclick="appendToDisplay('/')" class="operator-btn">÷</button>
 
