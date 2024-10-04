@@ -26,7 +26,6 @@ body {
   padding: 1rem 1rem 0;
   margin: 0 2rem 20px;
   border-radius: 1rem;
-  /* background-color: var(--gray-4); */
   visibility: visible; 
   }
 
@@ -60,19 +59,6 @@ body {
   padding: 25px;
 }
 
-.keypad__grid .zero-key {
-background: none;
-color: var(--light-blue);
-font-size: 1.8rem;
-width: 225%;
-height: 3rem;
-border: none;
-border-radius: .75rem;
-background-color: var(--light-black);
-transition: color .1s ease,background-color .1s ease;
-z-index: 1;
-}
-
 button{
   width: 100px;
   height: 75px;
@@ -84,5 +70,9 @@ button{
   font-weight: bold;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
 
+button:hover {
+  background-color: #565151;
+  color: white;
 }
